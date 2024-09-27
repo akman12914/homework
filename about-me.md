@@ -1,8 +1,6 @@
-![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&text=SUNG%20YUJIN)
-
-<!-- ![akman12914's GitHub stats](https://github-readme-stats.vercel.app/api?username=akman12914&show_icons=true&theme=transparent) -->
-
 <div align="center">
+
+![header](https://capsule-render.vercel.app/api?type=venom&color=gradient&text=SUNG%20YUJIN)
 
 </br></br>
 

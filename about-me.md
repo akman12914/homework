@@ -13,18 +13,18 @@
 
 ## **PROGRAMMING**
 
-html/css`
-`Javascript`
-`java`
-`python
+html/css&nbsp;
+Javascript&nbsp;
+java&nbsp;
+python
 
 </br>
 
 ## **INTEREST**
 
-UI/UX`
-`Web-Design`
-`3DGrapics`
-`Image-process
+UI/UX&nbsp;
+Web-Design&nbsp;
+3DGrapics&nbsp;
+Image-process
 
 </div>

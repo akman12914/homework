@@ -1,0 +1,36 @@
+.wrapper {
+  float: left;
+}
+
+.cleared {
+  clear: both;
+}
+
+img {
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+span {
+  position: relative;
+}
+
+span::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: solid 1px white;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}
+
+.login::after {
+  background-color: #4cfe88;
+}
+.logout::after {
+  background-color: #dbdbdb;
+}

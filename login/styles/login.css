@@ -1,0 +1,54 @@
+@import "./../../assets/login/mini-reset.css";
+@import "./../../assets/login/a11y.css";
+
+:root {
+  --text-base: 1rem;
+
+  --base-font-color: #121212;
+}
+
+/* 미디어 쿼리 */
+/* 공통 스타일 */
+
+input,
+button,
+a:focus {
+  color: #24388d;
+}
+/* - 포커스 스타일을 기본 색상이 아닌 커스텀 스타일로 변경할 것(색상 `#24388d` */
+body {
+  margin: 0 auto;
+
+  .login {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    .login__title {
+      width: 14.375rem;
+      inline-size: 14.375rem;
+
+      a,
+      svg {
+        display: block;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .login {
+      width: 100%;
+      inline-size: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-inline: 20px;
+
+      /* 모바일 로그인 폼 로그인 폼의 가로 크기는 `100%`(좌/우 여백 각 20px 포함)로 설정할 것 */
+
+      .login__ip-security {
+        display: none;
+      }
+
+      /* 모바일 환경에서 IP 보안 ON/OFF 스위치 UI는 사용자에게 제공되지 않도록 구현할 것 */
+    }
+  }
+}

@@ -173,7 +173,7 @@
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
   .apple-product-card:nth-child(1) {
     background: url("./../products/ipad_pro_2x.jpeg") no-repeat center;
   }
@@ -197,7 +197,7 @@
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (min-width: 1024px) {
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) and (min-width: 1024px) {
   .apple-product-card:nth-child(1) {
     background: url("./../products/ipad_pro_wide_2x.jpeg") no-repeat center;
   }
